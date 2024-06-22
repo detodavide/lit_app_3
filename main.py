@@ -21,7 +21,7 @@ class MultiApp:
             app = option_menu(
                 menu_title="DiscoData",
                 options=[
-                    'Bot Logs'
+                    'Bot Logs',
                     # "Requests",
                     # "Profile Spider",
                     # "Collection Spider"
