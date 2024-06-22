@@ -21,10 +21,8 @@ class MultiApp:
             app = option_menu(
                 menu_title="DiscoData",
                 options=[
-                    'Bot Logs',
-                    # "Requests",
-                    # "Profile Spider",
-                    # "Collection Spider"
+                    "Bot Logs",
+                    "Requests"
                 ],
                 default_index=1,
                 styles={
@@ -36,8 +34,8 @@ class MultiApp:
             )
         if app == "Bot Logs":
             pags.logs.app()
-        # if app == "Requests":
-        #     pags.requests.app()  
+        if app == "Requests":
+            pags.requests.app()  
         # if app == "Profile Spider":
         #     pags.profileSpider.app()  
         # if app == "Collection Spider":
